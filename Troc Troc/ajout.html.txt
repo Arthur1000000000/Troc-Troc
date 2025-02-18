@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrocTroc - Ajouter une annonce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TrocTroc</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="annonces.html">Annonces</a>
+            <a href="ajout.html">Publier une annonce</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Publier une annonce</h2>
+        <form>
+            <label for="titre">Titre de l'annonce :</label>
+            <input type="text" id="titre" required>
+
+            <label for="description">Description :</label>
+            <textarea id="description" required></textarea>
+
+            <button type="submit">Publier</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2025 TrocTroc - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
